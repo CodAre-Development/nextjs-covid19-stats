@@ -12,8 +12,10 @@ console.log(country)
         <Head>
             <title>{country[0].country} Status</title>
 
+            <meta name={"description"} content={country[0].country + " Covid-19 Status"} />
             <link rel="icon" href={country[0].countryInfo.flag}/>
         </Head>
+    
         <p className="text-lg text-center font-bold m-5">{country[0].country} Status - <Link href={"/"}>Go Back</Link></p>
 
         <table className="rounded-t-lg m-5 w-5/6 mx-auto dark:bg-gray-800 dark:text-gray-200">
