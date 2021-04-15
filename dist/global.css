@@ -1,0 +1,15 @@
+.countries {
+  margin-top: 60px;
+}
+.countries span {
+  cursor: pointer;
+  margin: 5px !important;
+}
+
+.flag {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*# sourceMappingURL=global.css.map */

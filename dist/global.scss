@@ -1,0 +1,14 @@
+.countries {
+  margin-top: 60px;
+
+  span {
+    cursor: pointer;
+    margin: 5px !important;
+  }
+}
+
+.flag {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
